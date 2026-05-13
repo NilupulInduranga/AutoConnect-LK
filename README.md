@@ -155,4 +155,4 @@ uvicorn main:app --reload
 
 ---
 
-*Prepared by Nilupul Induranga & Team with Antigravity AI*
+
