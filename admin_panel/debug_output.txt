@@ -1,0 +1,39 @@
+Listings Status Breakdown:
+{
+  "approved": 4,
+  "rejected": 1
+}
+
+Latest 10 Listings:
+[
+  {
+    "id": "044b3274-568e-4395-94b4-f54854a28636",
+    "title": "Suzuki WagonR Stingray Front Buffer",
+    "status": "approved",
+    "seller_id": "38f6b8d6-1965-4071-b8c5-9e19af108a13"
+  },
+  {
+    "id": "bd7cbbb5-33ec-470a-b931-2b51111dbace",
+    "title": "Nissan X-Trail T30 Shock Absorbers",
+    "status": "approved",
+    "seller_id": "38f6b8d6-1965-4071-b8c5-9e19af108a13"
+  },
+  {
+    "id": "2362da5e-a5a3-4a35-ae21-dd876b03ae5c",
+    "title": "Toyota Aqua Hybrid Battery Cell",
+    "status": "approved",
+    "seller_id": "38f6b8d6-1965-4071-b8c5-9e19af108a13"
+  },
+  {
+    "id": "54a45f35-cf65-4f69-8781-7fb2be4109a4",
+    "title": "Toyota Corolla 141 Headlight (Left)",
+    "status": "rejected",
+    "seller_id": "38f6b8d6-1965-4071-b8c5-9e19af108a13"
+  },
+  {
+    "id": "fa0c016a-d0c9-4534-8ba8-14acf09fc910",
+    "title": "Honda Civic FD1 Alternator",
+    "status": "approved",
+    "seller_id": "38f6b8d6-1965-4071-b8c5-9e19af108a13"
+  }
+]
