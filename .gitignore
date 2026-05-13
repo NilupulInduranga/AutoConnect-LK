@@ -1,0 +1,29 @@
+# Flutter
+mobile_app/.dart_tool/
+mobile_app/.idea/
+mobile_app/build/
+mobile_app/ios/Pods/
+mobile_app/.pub-cache/
+mobile_app/pubspec.lock
+
+# Next.js
+admin_panel/.next/
+admin_panel/node_modules/
+admin_panel/.env
+admin_panel/.env.local
+admin_panel/.env.development.local
+admin_panel/.env.test.local
+admin_panel/.env.production.local
+
+# Python
+ai_service/__pycache__/
+ai_service/*.pyc
+ai_service/.venv/
+ai_service/venv/
+ai_service/.env
+
+# General
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
