@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+supabase
+python-multipart
+pydantic
+scikit-learn
+numpy
+pandas
+# Add torch/tensorflow later based on specific model needs
