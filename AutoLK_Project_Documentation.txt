@@ -1,0 +1,70 @@
+================================================================================
+                    AutoLK PROJECT DOCUMENTATION
+          (The Next-Gen Sri Lankan Auto Parts Marketplace)
+================================================================================
+
+1. PROJECT OVERVIEW
+-------------------
+AutoLK is a comprehensive digital marketplace platform designed to bridge the
+gap between auto part sellers and buyers in Sri Lanka. It leverages AI and 
+modern cloud technologies to provide a seamless, high-performance experience.
+
+2. CORE FEATURES
+----------------
+* AI-Powered Vision Intelligence: 
+  Uses on-device ML Kit to analyze camera feeds and identify car parts (e.g., 
+  Brake Pads, Headlights) in real-time without requiring an internet connection.
+* Real-time Marketplace: 
+  Buyers can browse, filter, and search for parts across various categories.
+* Instant Communication: 
+  Integrated real-time chat system for buyers and sellers to negotiate and 
+  share details.
+* Advanced Seller/Admin Panel: 
+  A web-based dashboard for managing inventory, tracking ads, and monitoring 
+  platform activity.
+* Secure Authentication: 
+  Full auth flow with Email/Password and integrated "Forgot Password" 
+  capability using Supabase.
+
+3. TECHNOLOGY STACK
+-------------------
+* Frontend (Mobile): Flutter (Dart) - Cross-platform performance.
+* Frontend (Admin): Next.js (React) - Modern, fast web dashboard.
+* Backend & Database: Supabase (PostgreSQL) - Real-time data sync and storage.
+* AI/ML: Google ML Kit (On-device Object Detection).
+* State Management: Riverpod (Mobile).
+* Storage: Supabase Buckets (for part images and user proofs).
+
+4. DIRECTORY STRUCTURE
+----------------------
+* /mobile_app : The primary Flutter source code for Android/iOS users.
+  - lib/features: Modular structure (auth, buyer, seller, chat, camera).
+* /admin_panel: The Next.js web application for administrative management.
+* /supabase   : Database schema snapshots and migration assets.
+* AutoLK.apk  : The production-ready release candidate (optimized for ARM64).
+
+5. SETUP INSTRUCTIONS (FOR VIVA/DEMO)
+--------------------------------------
+1. Mobile App: 
+   - Install 'AutoLK.apk' on an Android device to demo the vision feature.
+2. Admin Panel: 
+   - Ensure Node.js is installed. 
+   - Run 'run_adminpanel.bat' in the project root. It will automatically 
+     install dependencies and open the dashboard at http://localhost:3000.
+
+6. VIVA KEY TALKING POINTS
+--------------------------
+* Accessibility: We used local ML Kit instead of cloud AI to ensure the app 
+  works in areas with poor internet (offline AI vision).
+* Performance: The APK was optimized from 300MB+ to 43MB using architecture-
+  specific splitting (ABIs).
+* Security: Implemented Row Level Security (RLS) in Supabase to protect 
+  private seller and buyer data.
+* Future Growth: The modular architecture allows for easy addition of more 
+  AI models or payment gateway integrations.
+
+================================================================================
+Prepared for: Final Year Project / Technical Viva
+Developer: Nilupul & Team
+Assistant: Antigravity AI
+================================================================================
