@@ -145,14 +145,6 @@ uvicorn main:app --reload
    ```
    Open `http://localhost:3000` to view the dashboard.
 
----
 
-## 🎯 Viva Key Highlights & Talking Points
-
-- **Resource Optimization**: Built using on-device ML Kit, rendering standard 300MB+ models obsolete and compressing the APK size to an incredibly optimized **43MB** by splitting ABIs (`armeabi-v7a`, `arm64-v8a`).
-- **Data Integrity**: Supabase PostgreSQL triggers automatically audit listing creations, instantly scheduling check tasks to the `ai_service` queue to flag fraud in real-time.
-- **Modular Adaptability**: Clean Architecture and Riverpod make adding future payment gateways or upgrading neural networks incredibly straightforward.
-
----
 
 
